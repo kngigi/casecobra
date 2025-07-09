@@ -1,3 +1,40 @@
+# Casecobra
+
+**Casecobra** is a responsive web application that allows users to upload images and design personalized phone cases. Built with modern technologies like Next.js, Tailwind CSS, and TypeScript, it focuses on real-time customization, smooth user experience, and clean UI design.
+
+
+## 🔗 Live Demo
+
+👉 [View Live Site](https://casecobra-rouge-seven.vercel.app/) 
+
+## ✨ Features
+
+- Upload and preview phone case designs in real-time
+- Customize phone case background, positioning, and scaling
+- Responsive layout for mobile and desktop
+- Optimized image rendering for better performance
+- Minimalist and modern UI/UX
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 13 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Database:** PostgreSQL via Neon
+- **ORM:** Prisma
+- **Image Hosting:** Cloudinary (or similar)
+- **Deployment:** Vercel
+
+## 📁 Project Structure
+
+/app → App routes and layout components  
+/components → Reusable UI components  
+/lib → Utility functions (e.g., image upload logic)  
+/prisma → Prisma schema and migrations  
+/public → Static assets (e.g., preview image)  
+/styles → Global styles  
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
